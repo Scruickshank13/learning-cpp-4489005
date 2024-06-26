@@ -1,15 +1,18 @@
 // Learning C++ 
 // Challenge 01_03
-// Console Interaction, by Eduardo Corpeño 
+// Console Interaction, by Scott 
 
 #include <iostream>
 #include <string>
 
-int main(){
-    std::string str;
-    std::cin >> str;
-    std::cout << str;
+using namespace std;
 
-    std::cout << std::endl << std::endl;
+int main(){
+    string name;
+
+    cout << "What is you name?" << endl;
+    cin >> name;
+    cout << "Hello " << name << endl;
+
     return (0);
 }
