@@ -7,9 +7,12 @@ using namespace std;
 
 int main(){
    float nums[5] = {1, 34, 54.5, 45, 6};
-   float result;
+   float result = 0.0;
 
-    result = nums[0] + nums[1] + nums[2] + nums[3] + nums[4];
+
+for (int i = 0; i < 5; i++){
+    result += nums[i];
+}
     result /=5;
 
     std::cout << "The average is " << result << std::endl;
